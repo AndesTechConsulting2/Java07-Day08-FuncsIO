@@ -23,8 +23,6 @@ public class AppIO {
 
         if (!file2.exists()) file2.mkdirs();
 
-
-
         try {
             Files.copy(file3.toPath(),
             Paths.get("e:\\datas\\datas2\\res.txt"),
@@ -38,6 +36,9 @@ public class AppIO {
         {
             System.out.println(f+"\tfile?" + f.isFile());
         }
+
+
+
 
 
 
