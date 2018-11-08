@@ -38,6 +38,8 @@ public class App
 
           for (int i = 0; i<digits.length; i++) digits[i] = Double.parseDouble(strs[i]);
 
+          Utils.echo("-",75);
+          System.out.println("Summ=" + sum2(digits));
 
         }
 
